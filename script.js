@@ -1,0 +1,7 @@
+let cartCount = 0;
+
+function addToCart() {
+    cartCount++;
+    document.getElementById("cartCount").innerText = cartCount;
+    alert("Item added to cart successfully!");
+}
